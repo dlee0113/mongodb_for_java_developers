@@ -11,13 +11,14 @@ import org.bson.Document;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
- 
 
+// use sampledb
+// db.users.find()
 public class InsertMongo {
 	public static void main(String args[]) {
 		try {
 			 
-			MongoClient mongoClient = new MongoClient("localhost", 28017);
+			MongoClient mongoClient = new MongoClient("localhost", 27017);
 			 
 			MongoDatabase db = mongoClient.getDatabase("sampledb");
 			MongoCollection<Document> coll = db.getCollection("users");

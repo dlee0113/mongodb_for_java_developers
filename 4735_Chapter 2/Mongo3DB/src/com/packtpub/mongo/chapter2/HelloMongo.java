@@ -9,7 +9,7 @@ package com.packtpub.mongo.chapter2;
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
  
-
+// use test
 public class HelloMongo{
    public static void main( String args[] ){
       try{   
