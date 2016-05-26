@@ -12,6 +12,7 @@ import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
 import com.mongodb.util.JSON;
 
+// user sampledb
 public class Main {
 
     public static void main(String args[]) {

@@ -13,7 +13,7 @@ import com.mongodb.DBCollection;
 import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
 
-
+//user sampledb
 public class MainAdapter {
 
     public static void main(String args[]) {
